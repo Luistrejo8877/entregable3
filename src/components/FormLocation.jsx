@@ -16,6 +16,10 @@ const FormLocation = ({ setIdLocation }) => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <select>
+        <option value="id">id</option>
+        <option value="name">name</option>
+      </select>
        <input id='inputId' style={{boxShadow: '1px 1px 10px'}} type="text" />
        <button style={{backgroundColor: 'green', color: 'white'}}>Search</button>
     </form>
