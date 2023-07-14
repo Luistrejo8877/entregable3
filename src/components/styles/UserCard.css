@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.user-card{
+    background-color: rgb(7, 150, 234);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5rem;
+    max-width: 600px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+}
+.user-card img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+}
