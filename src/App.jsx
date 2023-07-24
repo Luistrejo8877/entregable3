@@ -5,7 +5,7 @@ import ResidentCard from './components/ResidentCard'
 import LocationInfo from './components/locationInfo'
 import FormLocation from './components/FormLocation'
 import useFetch from './hooks/useFetch'
-import UseCard from './components/UseCard'
+
 
 
 
@@ -22,9 +22,9 @@ function App() {
   
 
   return (
-    <div>
-      <UserCard />
-      <h1>Rick and Morty App</h1>
+    <div className='body'>
+      <header className='header-img'></header>
+      <h1 className='title-header'>Rick and Morty App</h1>
       <FormLocation
       setIdLocation={setIdLocation}
       />
