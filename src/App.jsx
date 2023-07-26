@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import getRandomNumber from './utils/getRandomNumber'
 import ResidentCard from './components/ResidentCard'
-import LocationInfo from './components/locationInfo'
+import LocationInfo from './components/LocationInfo'
 import FormLocation from './components/FormLocation'
 import useFetch from './hooks/useFetch'
 

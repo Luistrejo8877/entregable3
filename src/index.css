@@ -53,3 +53,30 @@
     width: 100%;
     background-size: cover;
   }
+
+  .body-location{
+    background-color: rgb(61, 57, 57);
+
+  }
+
+  .padre{
+    height: 200px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .hijo{
+    width: 200px;
+    color: chartreuse;
+    font-size:20px;
+  }
+  .hijo-1{
+    background-color: rgb(39, 35, 35) ;
+  }
+  .hijo-2{
+    background-color: rgb(39, 35, 35) ;
+  }
+  .hijo-3{
+    background-color: rgb(39, 35, 35) ;
+  }
