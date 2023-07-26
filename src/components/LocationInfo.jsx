@@ -2,7 +2,7 @@ const LocationInfo = ({ location }) => {
     console.log(location)
 
     return (
-        <article>
+        <article >
             <h2>{location?.name}</h2>
             <ul>
                 <li><span>Type:</span><span>{location?.type}</span></li>

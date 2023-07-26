@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className='body'>
-      <header className='header-img'></header>
+      
       <h1 className='title-header'>Rick and Morty App</h1>
       <FormLocation
       setIdLocation={setIdLocation}
